@@ -13,7 +13,7 @@
           cy.wait(5000); /* ==== End Cypress Studio ==== */
       //  start writing your code from here })
 
-    cy.get("._with-tooltip #customer-email")
+    cy.get(".control._with-tooltip #customer-email")
     cy.get("[name='firstname']")
     cy.get("[name='lastname']")
     cy.get("[name='company']")
